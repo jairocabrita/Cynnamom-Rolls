@@ -31,14 +31,13 @@ a{
 }
 /* CARRUSEL PORTADA */
 .medidasImg{
-    height: 85vh;
+    height: 85vh auto;
 }
 /* PIE DE PAGINA */
 footer{
     background:chocolate;
     padding: 5px;
-}
-/* LETRA &COPY */
+} 
 .copyR{
     color: white;
     font-family:'Franklin Gothic Medium';
@@ -61,7 +60,6 @@ form{
     grid-template-columns: 500px;
     justify-content: center;
     text-align: center;
-/* line-height: 25px;font-size: 18px;text-align: center; */
 }
 /* CONTENIDO GENERAL */
 .logosRedesSociales{
@@ -69,9 +67,6 @@ form{
 }
 .logoPyaRappi{
     height: 300px;
-}
-table,th,td{
-    border: 2px solid black ;width:600px;text-align: center
 }
 .logo{
     position: absolute;
@@ -83,7 +78,7 @@ table,th,td{
     height: 450px; width: 500px;border-radius: 30px;
 }
 hr {
-    margin: 60px;
+    margin: 40px;
 }
 /* ICONOS REDES SOCIALES */
 .redesFlex{
@@ -91,9 +86,6 @@ hr {
     right: 2%;
     top: 83%;
     z-index: 20;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center; */
 }
 /* ICONOS APP DELIVERY */
 .flexApp{
@@ -212,9 +204,6 @@ hr {
         color: chocolate;font-family: 'Satisfy', cursive;font-size: 15px;
         text-decoration: none;
     }
-    .medidasImg{
-        height: 40vh;
-    }
     .logo{
         position: absolute;
         left: 0%;
@@ -264,9 +253,6 @@ hr {
     a{
         color: chocolate;font-family: 'Satisfy', cursive;font-size: 18px;
         text-decoration: none;
-    }
-    .medidasImg{
-        height: 40vh;
     }
     .logo{
         position: absolute;
